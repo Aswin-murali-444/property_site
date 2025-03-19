@@ -1,0 +1,88 @@
+.properties-form-container {
+         max-width: 800px;
+         margin: 0 auto;
+         text-align: center;
+         padding: 20px;
+         font-family: Arial, sans-serif;
+       }
+       
+       h1 {
+         color: #4f46e5;
+       }
+       
+       .property-form {
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+         margin-bottom: 20px;
+       }
+       
+       .property-form input {
+         padding: 10px;
+         border: 1px solid #ddd;
+         border-radius: 5px;
+       }
+       
+       .add-button {
+         background-color: #4f46e5;
+         color: white;
+         padding: 10px 15px;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+       }
+       
+       .add-button:hover {
+         background-color: #3b41cc;
+       }
+       
+       .properties-list {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 20px;
+         justify-content: center;
+       }
+       
+       .property-card {
+         border: 1px solid #ddd;
+         border-radius: 8px;
+         width: 250px;
+         overflow: hidden;
+         text-align: left;
+         background: #fff;
+       }
+       
+       .property-card img {
+         width: 100%;
+         height: 150px;
+         object-fit: cover;
+       }
+       
+       .property-info {
+         padding: 10px;
+       }
+       
+       .property-info h3 {
+         margin: 0 0 5px;
+         color: #333;
+       }
+       
+       .property-info p {
+         margin: 5px 0;
+         color: #555;
+       }
+       
+       .delete-button {
+         background-color: #e3342f;
+         color: white;
+         padding: 5px 10px;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         margin-top: 10px;
+       }
+       
+       .delete-button:hover {
+         background-color: #c62828;
+       }
+       
