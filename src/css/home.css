@@ -809,3 +809,19 @@ body {
     font-size: 2rem;
   }
 }
+
+.tour-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.tour-button:hover {
+  background-color: #45a049;
+}
