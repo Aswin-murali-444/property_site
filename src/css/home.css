@@ -1,16 +1,42 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6a0dad; /* Violet color */
+  padding: 10px 20px; /* Compact padding */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between logo and text */
+}
+
+.logo-image {
+  width: 40px; /* Adjust logo size */
+  height: 40px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 18px; /* Adjust font size */
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1a1a2e;
-  padding: 15px 30px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 25px; /* Adjusted gap for better spacing */
 }
 
 .nav-links li {
@@ -20,13 +46,13 @@
 .nav-links a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 16px; /* Adjusted font size */
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #00aaff;
+  color: #ffd700; /* Gold color for hover effect */
 }
 
 .nav-links .dropdown:hover .dropdown-menu {
@@ -85,7 +111,7 @@
 
 .search-bar button {
   padding: 10px 20px;
-  background-color: #00aaff;
+  background-color: #ffd700; /* Gold color for button */
   color: #ffffff;
   border: none;
   border-radius: 20px;
@@ -96,159 +122,5 @@
 }
 
 .search-bar button:hover {
-  background-color: #0077cc;
-}
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1a1a2e;
-  padding: 10px 20px; /* Reduced padding to make the header smaller */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px; /* Adjusted gap for better spacing */
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 14px; /* Reduced font size for a compact look */
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #00aaff;
-}
-
-.logo h1 {
-  font-size: 20px; /* Reduced font size for the logo */
-  color: #ffffff;
-  margin: 0;
-}
-
-.search-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px; /* Reduced gap for compactness */
-  background-color: #ffffff;
-  padding: 5px 10px; /* Reduced padding */
-  border-radius: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.search-bar input {
-  padding: 8px; /* Reduced padding */
-  border: none;
-  outline: none;
-  border-radius: 15px; /* Adjusted border radius */
-  font-size: 12px; /* Reduced font size */
-  flex: 1;
-}
-
-.search-bar button {
-  padding: 8px 15px; /* Reduced padding */
-  background-color: #00aaff;
-  color: #ffffff;
-  border: none;
-  border-radius: 15px; /* Adjusted border radius */
-  font-size: 12px; /* Reduced font size */
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.search-bar button:hover {
-  background-color: #0077cc;
-}
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1a1a2e;
-  padding: 10px 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Space between logo and text */
-}
-
-.logo-image {
-  width: 40px; /* Adjust logo size */
-  height: 40px;
-  object-fit: contain;
-}
-
-.logo-text {
-  font-size: 18px; /* Adjust font size */
-  color: #ffffff;
-  font-weight: bold;
-  margin: 0;
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex: 1;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #00aaff;
-}
-
-.search-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background-color: #ffffff;
-  padding: 5px 10px;
-  border-radius: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.search-bar input {
-  padding: 8px;
-  border: none;
-  outline: none;
-  border-radius: 15px;
-  font-size: 12px;
-  flex: 1;
-}
-
-.search-bar button {
-  padding: 8px 15px;
-  background-color: #00aaff;
-  color: #ffffff;
-  border: none;
-  border-radius: 15px;
-  font-size: 12px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.search-bar button:hover {
-  background-color: #0077cc;
+  background-color: #ff8c00; /* Darker gold for hover effect */
 }
